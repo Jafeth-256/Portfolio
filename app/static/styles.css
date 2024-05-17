@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.text-content {
+    max-width: 70%;
+    width: 30%; /* Limit the width of the text */
+    margin: 200px auto 0; /* Add top margin to move the text down */
+}
+.image-content {
+    max-width: 30%;
+}
+.image-content img {
+    width: 50%;
+    height: auto;
+    margin: 110px 200px 0;
+}
