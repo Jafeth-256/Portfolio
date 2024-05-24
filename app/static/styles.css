@@ -1,17 +1,31 @@
+/* Index */
+
+body{
+    background-color: #ffffff;
+}
+
+
+/* About me */
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .text-content {
-    max-width: 70%;
-    width: 30%; /* Limit the width of the text */
-    margin: 200px auto 0; /* Add top margin to move the text down */
-}
-.image-content {
-    max-width: 30%;
-}
-.image-content img {
     width: 50%;
-    height: auto;
-    margin: 110px 200px 0;
+    margin-left: 20rem;
+    margin-top: 8rem;
+}
+
+.image-content {
+    width: 20%;
+    margin-right: 30rem;
+    margin-top: 7rem;
+}
+
+.text-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 15rem;
 }
